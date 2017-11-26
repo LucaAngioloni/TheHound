@@ -48,7 +48,7 @@ After all the devices are tourned on and all the software has been loaded and st
 
 The script then proceeds to the Image Elaboration to detect and store relevant features of the object to use later to match with features extracted from the continuous stream of images from the PiCamera.
 
-The feature extraction algorithm used is called SURF (Speeded up Robust Features). (See code and Thesis for more details)
+The feature extraction algorithm used is called SURF (Speeded up Robust Features) which is invariant to rotations, scale changes and minimal tilting (See below examples). (See code and Thesis for more details)
 
 Then the script collects images from the PiCamera and tries to match similar features between the current frame image and the original image from the iPhone.
 
@@ -61,6 +61,10 @@ The Arduino then calculates the necessary moves to get to the object and actuate
 This process is repeated constantly adjusting the estimates frame by frame.
 
 While this is happening, in an other thread the script sends back the results of the elaboration to the iPhone which shows them onto the screen for the user to see.
+
+Some examples of the results of the elaboration:
+![Example1](./Images/Example1.png)
+![Example2](./Images/Example2.png)
 
 (Again more details can be found in the Bachelor Thesis and in the code).
 
