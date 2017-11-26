@@ -18,6 +18,12 @@ From a single input image, representing an object, the system is capable of extr
 
 ## The workflow
 
+## Bachelor Thesis
+
+A very detailed description of the project is available in the `Tesi Luca Angioloni.pdf` file (but in italian).
+
+This is my Bachelor Degree Thesis.
+
 ## Requirements
 
 ### Hardware & Materials
