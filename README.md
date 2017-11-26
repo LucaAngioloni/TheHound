@@ -62,7 +62,7 @@ This process is repeated constantly adjusting the estimates frame by frame.
 
 While this is happening, in an other thread the script sends back the results of the elaboration to the iPhone which shows them onto the screen for the user to see.
 
-## Software implementation
+(Again more details can be found in the Bachelor Thesis and in the code).
 
 ## Bachelor Thesis
 
