@@ -16,7 +16,24 @@ From a single input image, representing an object, the system is capable of extr
 
 ## Software implementation
 
-## The construction
+## Construction
+
+The System has been built using the materials and hardware specified in the [Requirements section](#requirements).
+The wheels, motors and the battery case are mounted on the plexiglass base. The Arduino is also mounted on the base and fixed with 4 plastic screws.
+
+The motors should be connected and soldered to the shield. The switch and battely case shoud be connected as well.
+
+On top of the base a custom plexiglass structure is mounted. This can sustain the PiCamera, The RaspberryPi and the big battery.
+
+The AA batteries will power the Arduino, the shield and the motors, the big battery will power the RaspberryPi.
+
+The Arduino needs to be connected through a USB cable to the RaspberryPi.
+
+If the RaspberryPi is a v2 then it will need a WiFi Adapter.
+
+Finally tie all toghether using some straps.
+
+The final result should look like the [initial picture](./Images/CarPhoto.png) of the system.
 
 ## Usage
 
