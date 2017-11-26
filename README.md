@@ -1,5 +1,5 @@
-# theHound
-![theHoudPicture](./Images/CarPhoto.png)
+# TheHound
+![TheHoundPicture](./Images/CarPhoto.png)
 
 ## Introduction
 
@@ -12,11 +12,27 @@ Finally the reduced costs make this system a platform accessible to many more us
 
 From a single input image, representing an object, the system is capable of extracting the necessary information for the following elaboration of a continuous stream of images captured from the integrated frontal camera. With the results of this elaboration the system can estimate and predict the position of the object (if present) in the surrounding space and operate the supplied actuators to track and follow the object.
 
+## The workflow
+
 ## Software implementation
 
 ## The construction
 
-## The workflow
+## Usage
+
+Assemble the System and load the relative software onto the devices.
+
+Then:
+
+1. Connect the iPhone and the RaspberryPi to the same WiFi Network (It can also be the WiFi Hotspot from the smartphone)
+2. Through ssh connect to the RaspberryPi and launch one of the scripts:
+    - `Tesi.py` for the tracking functionality: `$ python3 Tesi.py`
+    - `RemoteControl2.0.py` for just the remote control: `$ python3 RemoteControl2.0.py`
+3. Open the relative iPhone app:
+    - CVClient for `Tesi.py`
+    - Remote for `RemoteControl2.0.py`
+4. Just use the iPhone app to controll the Device.
+   
 
 ## Bachelor Thesis
 
